@@ -1,0 +1,17 @@
+# Site navigation links
+
+- title: About
+  url: /about/
+  
+- title: Statistics
+  url: /stats/
+  
+- title: Whats Cooking
+  url: /recipes/
+
+- title: Blog
+  url: /blog/
+
+- title: Search
+  url: /search/
+  

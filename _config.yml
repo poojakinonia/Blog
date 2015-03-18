@@ -1,0 +1,53 @@
+# Site wide configuration
+
+title: Sky High
+locale: en_US
+description: I am an Assistant Professor from last four years.I like to write blog on HRM, Statistics and Finance.My hobbies are cooking, puzzle solving, and writing
+logo: site-logo.png
+search: true
+url: #http://poojakinonia.github.io
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  use_coderay: false
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Site owner
+owner:
+  name: Ms. Pooja Kinonwal
+  avatar: pooja.jpg
+  email: pooja.rds@gmail.com
+  disqus-shortname: personalblogofpooja
+  twitter: poojakinonwal
+  facebook: pooja.kinonwal
+  github: poojakinonia
+  stackexchange: #http://stackoverflow.com/users/123456/username
+  linkedin: poojakinonwal
+  instagram: #username
+  flickr: #username
+  tumblr: poojakinonwal
+  pinterest: #username
+  google:
+    plus: #113536312222412240515
+    analytics: UA-60702603-1
+    verify:
+    ad-client:
+    ad-slot: 
+  bing-verify:
